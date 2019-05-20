@@ -1,8 +1,8 @@
-package com.mywebservice.services.storage.event;
+package com.vox.services.storage.event;
 
-import com.mywebservice.TrackCreate;
-import com.mywebservice.VoxException;
-import com.mywebservice.services.event.EventService;
+import com.vox.TrackCreate;
+import com.vox.VoxException;
+import com.vox.services.event.EventService;
 
 import javax.annotation.Nonnull;
 import java.time.Instant;

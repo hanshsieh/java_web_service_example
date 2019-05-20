@@ -1,9 +1,9 @@
-package com.mywebservice.services.storage.event;
+package com.vox.services.storage.event;
 
-import com.mywebservice.Track;
-import com.mywebservice.TrackCreate;
-import com.mywebservice.services.event.EventService;
-import com.mywebservice.services.storage.Storage;
+import com.vox.Track;
+import com.vox.TrackCreate;
+import com.vox.services.event.EventService;
+import com.vox.services.storage.Storage;
 
 import javax.annotation.Nonnull;
 

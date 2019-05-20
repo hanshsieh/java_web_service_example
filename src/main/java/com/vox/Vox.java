@@ -1,10 +1,11 @@
-package com.mywebservice;
+package com.vox;
 
-import com.mywebservice.services.id.IDService;
-import com.mywebservice.services.storage.Storage;
+import com.vox.services.storage.Storage;
 
 import javax.annotation.Nonnull;
+import javax.annotation.concurrent.ThreadSafe;
 
+@ThreadSafe
 public class Vox {
 
     private final Storage storage;

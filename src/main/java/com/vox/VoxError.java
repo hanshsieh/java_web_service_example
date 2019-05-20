@@ -1,4 +1,4 @@
-package com.mywebservice;
+package com.vox;
 
 public enum VoxError {
 

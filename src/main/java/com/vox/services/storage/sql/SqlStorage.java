@@ -1,12 +1,12 @@
-package com.mywebservice.services.storage.sql;
+package com.vox.services.storage.sql;
 
-import com.mywebservice.Track;
-import com.mywebservice.TrackCreate;
-import com.mywebservice.VoxError;
-import com.mywebservice.VoxException;
-import com.mywebservice.services.id.IDService;
-import com.mywebservice.services.storage.Storage;
-import com.mywebservice.services.system.SystemService;
+import com.vox.Track;
+import com.vox.TrackCreate;
+import com.vox.VoxError;
+import com.vox.VoxException;
+import com.vox.services.id.IDService;
+import com.vox.services.storage.Storage;
+import com.vox.services.system.SystemService;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 

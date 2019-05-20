@@ -1,4 +1,4 @@
-package com.mywebservice.services.system;
+package com.vox.services.system;
 
 import org.apache.ibatis.io.Resources;
 

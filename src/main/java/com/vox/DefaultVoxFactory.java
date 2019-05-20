@@ -1,13 +1,13 @@
-package com.mywebservice;
+package com.vox;
 
-import com.mywebservice.services.event.EventService;
-import com.mywebservice.services.event.DummyEventService;
-import com.mywebservice.services.id.IDService;
-import com.mywebservice.services.id.UUIDService;
-import com.mywebservice.services.storage.Storage;
-import com.mywebservice.services.storage.event.EventNotifyingStorage;
-import com.mywebservice.services.storage.sql.SqlStorage;
-import com.mywebservice.services.system.SystemService;
+import com.vox.services.event.DummyEventService;
+import com.vox.services.event.EventService;
+import com.vox.services.id.IDService;
+import com.vox.services.id.UUIDService;
+import com.vox.services.storage.Storage;
+import com.vox.services.storage.event.EventNotifyingStorage;
+import com.vox.services.storage.sql.SqlStorage;
+import com.vox.services.system.SystemService;
 
 import javax.annotation.Nonnull;
 

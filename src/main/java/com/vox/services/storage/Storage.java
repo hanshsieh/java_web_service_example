@@ -1,7 +1,7 @@
-package com.mywebservice.services.storage;
+package com.vox.services.storage;
 
-import com.mywebservice.Track;
-import com.mywebservice.TrackCreate;
+import com.vox.Track;
+import com.vox.TrackCreate;
 
 import javax.annotation.Nonnull;
 

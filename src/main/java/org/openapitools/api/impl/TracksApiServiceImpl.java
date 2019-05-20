@@ -1,9 +1,9 @@
 package org.openapitools.api.impl;
 
-import com.mywebservice.DefaultVoxFactory;
-import com.mywebservice.TrackCreate;
-import com.mywebservice.Vox;
-import com.mywebservice.VoxFactory;
+import com.vox.DefaultVoxFactory;
+import com.vox.TrackCreate;
+import com.vox.Vox;
+import com.vox.VoxFactory;
 import org.openapitools.api.ApiResponseMessage;
 import org.openapitools.api.NotFoundException;
 import org.openapitools.api.TracksApiService;
@@ -14,7 +14,6 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.Pattern;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.SecurityContext;
-import java.util.Date;
 import java.util.List;
 
 @javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJerseyServerCodegen", date = "2019-05-14T20:17:48.996+08:00[Asia/Taipei]")
@@ -25,15 +24,6 @@ public class TracksApiServiceImpl extends TracksApiService {
     public TracksApiServiceImpl() {
         VoxFactory voxFactory = new DefaultVoxFactory();
         this.vox = voxFactory.create();
-    }
-
-    public static void main(String[] args) throws Exception {
-        TracksApiServiceImpl tracksApiService = new TracksApiServiceImpl();
-        Track track = new Track();
-        track.setCreateTime(new Date());
-        track.setUpdateTime(new Date());
-        track.title("my_title");
-        tracksApiService.createTrack(track, null);
     }
 
     @Override

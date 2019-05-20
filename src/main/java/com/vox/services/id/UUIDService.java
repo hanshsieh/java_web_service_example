@@ -1,6 +1,6 @@
-package com.mywebservice.services.id;
+package com.vox.services.id;
 
-import com.mywebservice.VoxException;
+import com.vox.VoxException;
 
 import javax.annotation.Nonnull;
 import java.util.UUID;

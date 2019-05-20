@@ -1,6 +1,4 @@
-package com.mywebservice.services.storage.sql;
-
-import java.util.Date;
+package com.vox.services.storage.sql;
 
 public class TrackModel {
     private String id;

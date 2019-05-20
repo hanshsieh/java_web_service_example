@@ -1,4 +1,4 @@
-package com.mywebservice.services.event;
+package com.vox.services.event;
 
 import javax.annotation.Nonnull;
 

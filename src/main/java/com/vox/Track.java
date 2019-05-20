@@ -1,4 +1,4 @@
-package com.mywebservice;
+package com.vox;
 
 import javax.annotation.Nonnull;
 import java.time.Instant;

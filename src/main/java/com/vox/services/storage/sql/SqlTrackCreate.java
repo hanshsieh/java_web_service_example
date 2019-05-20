@@ -1,7 +1,7 @@
-package com.mywebservice.services.storage.sql;
+package com.vox.services.storage.sql;
 
-import com.mywebservice.TrackCreate;
-import com.mywebservice.VoxException;
+import com.vox.TrackCreate;
+import com.vox.VoxException;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 
@@ -12,6 +12,7 @@ public class SqlTrackCreate implements TrackCreate {
 
     private final SqlSessionFactory sqlSessionFactory;
     private final TrackModel track = new TrackModel();
+
     public SqlTrackCreate(@Nonnull String id, @Nonnull SqlSessionFactory sqlSessionFactory) {
         this.sqlSessionFactory = sqlSessionFactory;
         track.setId(id);
@@ -19,7 +20,7 @@ public class SqlTrackCreate implements TrackCreate {
 
     @Override
     @Nonnull
-    public TrackCreate setCreateTime(@Nonnull Instant createTime){
+    public TrackCreate setCreateTime(@Nonnull Instant createTime) {
         track.setCreateTs(createTime.toEpochMilli());
         return this;
     }

@@ -1,6 +1,6 @@
-package com.mywebservice.services.storage;
+package com.vox.services.storage;
 
-import com.mywebservice.Track;
+import com.vox.Track;
 
 import javax.annotation.Nonnull;
 import java.time.Instant;
@@ -13,6 +13,7 @@ public class TrackImpl implements Track {
     public TrackImpl(@Nonnull Map<String, Object> data) {
         this.data = data;
     }
+
     @Nonnull
     @Override
     public String getId() {
